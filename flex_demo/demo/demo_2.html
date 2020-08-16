@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, 
+    minimum-scale=1.0, user-scalable=no">
+    <title>index</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        div{
+            display: flex;
+            width: 800px;
+            height: 500px;
+            background-color: pink;
+            flex-direction: column;
+            /*尾部对齐*/
+            /* justify-content: flex-end; */
+            /* 居中对齐 */
+            /* justify-content: center; */
+            /* 平分剩余空间 */
+            /* justify-content: space-around; */
+            /* 先两边贴边，在平分剩余空间 */
+            justify-content: space-between;
+        }
+        div span{
+            width: 150px;
+            height: 100px;
+            background-color: gray;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+    </div>
+
+
+</body>
+</html>
